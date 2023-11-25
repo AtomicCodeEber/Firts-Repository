@@ -282,14 +282,23 @@ else:
     r17=0
 print("\n")
 
-answers=r0+r1+r2+r3+r4+r5+r6+r7+r8+r9+r10+r11+r12+r13+r14+r15+r16+r17
+q_18="¿Cuáles son las 3 formas de gobierno en México?"
+print(q_18.center(50,"/"))
+print("a. Estatal, Federal, Municipal.")
+print("b. Centralista, Izquierdista, Socialismo.")
+print("c. Neoliberalismo, Capitalismo, Independiente.")
+emf=input("Respuesta 18: ")
 
-if answers>= 11:
+if emf == "a":
+    print("Correcto :)")
+    r18=1
+else:
+    print("Incorrecto :(")
+    r18=0
+
+answers=r0+r1+r2+r3+r4+r5+r6+r7+r8+r9+r10+r11+r12+r13+r14+r15+r16+r17+r18
+
+if answers>= 13:
     print(f"Felicidades, tu puntaje fue de {answers}, te ganaste un dulce a elegir.")
-elif answers<=10:
-    print("Desafortunadamente reprobaste, tendrás que repasar el tema")
-
-if answers==15 or answers==20:
-    print("Felicidades, te ganaste un dulce a elegir.")
 elif answers<=10:
     print("Desafortunadamente reprobaste, tendrás que repasar el tema.")
