@@ -1,4 +1,3 @@
-
 "Quizz: Derecho Constitucional Interactivo"
 
 print("\n")
@@ -91,7 +90,7 @@ print(q_5.center(60,"/"))
 print("a. Capacidad del estado para decidir sobre asuntos internos.")
 print("b. Integridad de un individuo.")
 print("c. La represión y privatización de bienes.")
-soberanía=input("Respuessta 5: ")
+soberanía=input("Respuesta 5: ")
 
 if soberanía == "a":
     print("Correcto :)")
@@ -104,12 +103,43 @@ print("\n")
 
 "Cambiarle el número a esta pregunta y a las siguientes"
 
+q__="¿Qué caracteriza al modelo de Gobierno Parlamentario?"
+print(q__.center(60,"/"))
+print("a. EL poder reace en el pueblo, en donde los ciudadanos tienen el poder de elegir a sus representantes.")
+print("b. Se basa en la jefatura de 2 jefes de estado.")
+print("c. El jefe de estado y el jefe de gobierno son la misma persona.")
+print("d. El jefe de estado y el jefe de gobierno son personas distintas personas.")
+a=input("Respuesta : ")
+
+if a == "d":
+    print("Correcto :)")
+    rr=1
+else:
+    print("Incorrecto :(")
+    rr=0
+print("\n")
+
+q___="'La República Mexicana es definida como una república representativa, democrática, laica y federal.'"
+print(q___.center(60,"/"))
+print("a. Artículo 39.")
+print("b. Artículo 40.")
+print("c. Artículo 38.")
+b=input("Respuesta : ")
+
+if b == "b":
+    print("Correcto :)")
+    rrr=1
+else:
+    print("Incorrecto :(")
+    rrr=0
+print("\n")
+
 q_="¿Qué artículo estipula la función del poder legislativo?"
 print(q_.center(60,"/"))
 print("a. No. 45")
 print("b. No. 50")
 print("c. No. 72")
-legislativo=input("Respuessta 2: ")
+legislativo=input("Respuessta : ")
 
 if legislativo == "b":
     print("Correcto :)")
@@ -123,10 +153,11 @@ print("\n")
 "Parte final del código"
 "Considerar hacerlo web"
 "18/11/23"
+"última actualización: 24/11/23"
 
 answers=r0+r1+r2+r3
 
 if answers==15 or answers==20:
     print("Felicidades, te ganaste un dulce a elegir.")
-elif answers==10:
+elif answers<=10:
     print("Desafortunadamente reprobaste, tendrás que repasar el tema")
