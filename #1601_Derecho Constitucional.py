@@ -126,7 +126,7 @@ else:
     r7=0
 print("\n")
 
-q_8="Cuál es el propósito de la Constitución mexicana?"
+q_8="¿Cuál es el propósito de la Constitución mexicana?"
 print(q_8.center(60,"/"))
 print("a. Establecer un sistema federal de gobierno y reconocer los derechos humanos, sociales y económicos de los ciudadanos.")
 print("b. Establecer un sistema unitario de gobierno y reconocer solo los derechos humanos de los ciudadanos.")
@@ -141,7 +141,7 @@ else:
     r8=0
 print("\n")
 
-q_9="Cuál es el propósito de la Constitución mexicana?"
+q_9="¿Cuál es el propósito de la Constitución mexicana?"
 print(q_9.center(60,"/"))
 print("a. México es una monarquía constitucional donde el rey tiene el poder supremo.")
 print("b. México es una república representativa, democrática, laica y federal, donde la soberanía reside esencial y originariamente en el pueblo.")
